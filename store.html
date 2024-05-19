@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="store.css">
+</head>
+<body>
+    <header>
+        <h1>TipsyTrade</h1>
+        <nav>
+            <a href="finals.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="store.html">Store</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <aside id="categories">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#" class="category" data-category="all">All</a></li>
+                    <li><a href="#" class="category" data-category="category1">Beer & Ready-To-Drink</a></li>
+                    <li><a href="#" class="category" data-category="category2">Whisky</a></li>
+                    <li><a href="#" class="category" data-category="category3">Tequila</a></li>
+                    <li><a href="#" class="category" data-category="category4">Gin</a></li>
+                </ul>
+            </aside>
+            <section id="products">
+                <ul>
+                    <li class="product" data-category="category1">
+                        <img src="https://boozy.ph/cdn/shop/files/2023-ProductImageTemplate_38be2cba-e418-4f96-bc1a-8b4ebee23fe6_2880x.png?v=1698239872" alt="Product 1">
+                        <a class="product-name">Red Horse Beer</a>
+                        <div class="description">
+                            <p>Red Horse Beer 330 mL Can 6-Pack</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Red Horse Beer 330 mL Can 6-Pack" data-price="360">Add to Cart</button>
+                    </li>                    
+                    <li class="product" data-category="category1">
+                        <img src="https://boozy.ph/cdn/shop/files/2023-ProductImageTemplate_1_a03806a9-7281-4bd7-b4fe-c1b4dfc36155_2880x.png?v=1698239833" alt="Product 1">
+                        <a class="product-name">San Miguel Flavored Beer Apple</a>
+                        <div class="description">
+                            <p>San Miguel Flavored Beer Apple 330 mL Can 6-Pack</p>
+                        </div>
+                        <button class="add-to-cart" data-name="San Miguel Flavored Beer Apple 330 mL Can 6-Pack" data-price="359">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category1">
+                        <img src="https://boozy.ph/cdn/shop/files/SMBPale-6pack_2880x.png?v=1712216776" alt="Product 1">
+                        <a class="product-name">San Miguel Pale Pilsen</a>
+                        <div class="description">
+                            <p>San Miguel Pale Pilsen 330 mL Can 6-Pack</p>
+                        </div>
+                        <button class="add-to-cart" data-name="San Miguel Pale Pilsen  330 mL Can 6-Pack" data-price="339">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category1">
+                        <img src="https://boozy.ph/cdn/shop/files/Heineken_Bottle_Case_2880x.png?v=1712216772" alt="Product 1">
+                        <a class="product-name">Heineken</a>
+                        <div class="description">
+                            <p>Heineken 330ml Case 24 Bottles</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Heineken 330ml Case 24 Bottles" data-price="1749">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category1">
+                        <img src="https://boozy.ph/cdn/shop/files/SmirnoffCase_2880x.png?v=1712216800" alt="Product 1">
+                        <a class="product-name">Smirnoff Mule</a>
+                        <div class="description">
+                            <p>Smirnoff Mule 330ml Case 12 Bottles</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Smirnoff Mule 330ml Case 12 Bottles" data-price="636">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category2">
+                        <img src="https://boozy.ph/cdn/shop/products/Jd700ml_2880x.png?v=1591901784" alt="Product 1">
+                        <a class="product-name">Jack Daniel's</a>
+                        <div class="description">
+                            <p>Jack Daniel's Old No.7 Tennessee Whiskey 700ml</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Jack Daniel's Old No.7 Tennessee Whiskey 700ml" data-price="10">Add to Cart</button>
+                    </li> 
+                    <li class="product" data-category="category2">
+                        <img src="https://boozy.ph/cdn/shop/products/jwblacklabel1l_1_2880x.png?v=1688026947" alt="Product 1">
+                        <a class="product-name">Johnnie Walker Black Label</a>
+                        <div class="description">
+                            <p>Johnnie Walker Black Label 1L</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Johnnie Walker Black Label 1L" data-price="10">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category2">
+                        <img src="https://boozy.ph/cdn/shop/products/Jameson1L_2880x.png?v=1614919650" alt="Product 1">
+                        <a class="product-name">Jameson Irish</a>
+                        <div class="description">
+                            <p>Jameson Irish Whiskey 1L</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Jameson Irish Whiskey 1L" data-price="10">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category3">
+                        <img src="https://boozy.ph/cdn/shop/files/Tequila_Rose_750mL_2880x.png?v=1693438014" alt="Product 1">
+                        <a class="product-name">Tequila Rose</a>
+                        <div class="description">
+                            <p>Tequila Rose 750ml</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Tequila Rose 750ml" data-price="1049">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category3">
+                        <img src="https://boozy.ph/cdn/shop/files/Jose_Cuervo_Gold_1L_2880x.png?v=1693438016" alt="Product 1">
+                        <a class="product-name">Jose Cuervo Gold</a>
+                        <div class="description">
+                            <p>Jose Cuervo Gold 1L</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Jose Cuervo Gold 1L" data-price="1199">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category3">
+                        <img src="https://boozy.ph/cdn/shop/products/Casamigos_Blanco_2880x.png?v=1591901331" alt="Product 1">
+                        <a class="product-name">Casamigos Silver</a>
+                        <div class="description">
+                            <p>Casamigos Silver 700ml</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Casamigos Silver 700ml" data-price="3099">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category4">
+                        <img src="https://boozy.ph/cdn/shop/products/TanquerayLondonDry_2880x.png?v=1688027417" alt="Product 1">
+                        <a class="product-name">Tanqueray</a>
+                        <div class="description">
+                            <p>Tanqueray 750ml</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Tanqueray 750ml" data-price="999">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category4">
+                        <img src="https://boozy.ph/cdn/shop/products/TheBaRPinkGin700ml_2880x.png?v=1678437248" alt="Product 1">
+                        <a class="product-name">The BaR Pink Gin</a>
+                        <div class="description">
+                            <p>The BaR Pink Gin 700ml</p>
+                        </div>
+                        <button class="add-to-cart" data-name="The BaR Pink Gin 700ml" data-price="139">Add to Cart</button>
+                    </li>  
+                    <li class="product" data-category="category4">
+                        <img src="https://boozy.ph/cdn/shop/products/RokuGin_b887daba-2c6d-416c-9fc7-83995eb6eef5_2880x.png?v=1601884250" alt="Product 1">
+                        <a class="product-name">Suntory Roku Gin</a>
+                        <div class="description">
+                            <p>Suntory Roku Gin 700ml</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Suntory Roku Gin 700ml" data-price="1899">Add to Cart</button>
+                    </li>  
+                </ul>
+            </section>
+            <aside id="cart">
+                <h2>Shopping Cart</h2>
+                <ul id="cart-items">
+                </ul>
+                <p>Total: ₱<span id="cart-total">0</span></p>
+                <div id="customer-info">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="contact">Contact Number:</label>
+                    <input type="tel" id="contact" name="contact" required><br>
+                </div>
+                <button id="checkout-button">Checkout</button>
+                <button id="clear-cart">Clear Cart</button>
+            </aside>
+        </div>
+    </main>
+    <script src="store.js"></script>
+</body>
+</html>
